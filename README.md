@@ -45,12 +45,12 @@ termination condition detected via IMU contact sensing and servo load feedback.
 vla-robotic-arm/
 ├── README.md                          # this file
 ├── VLA_Training_README.md             # Colab training guide (cell-by-cell)
+├── documentation/                     # generated project documentation
 ├── requirements.txt                   # Python dependencies
 ├── yolov8n.pt                         # YOLOv8-nano base weights
 ├── checkpoints/
 │   └── yolov8n_vla/weights/
 │       └── best.pt                    # fine-tuned cube detector
-├── demos/                             # (empty) HDF5 demonstrations go here
 ├── dataset/
 │   ├── hdf5_reader.py                 # load/inspect HDF5 demo files
 │   ├── skill_segmenter.py             # rule-based REACH/GRASP/LIFT/PLACE labeller
@@ -61,7 +61,6 @@ vla-robotic-arm/
     ├── config/
     │   ├── arm_config.yaml            # DH params, joint limits, workspace bounds
     │   └── model_config.yaml          # model checkpoint paths
-    ├── calibration/                   # sensor calibration YAMLs (see below)
     ├── comms/
     │   └── teensy_serial.py           # USB serial link — 250-byte telemetry, 20-byte cmd
     ├── dashboard/
@@ -82,6 +81,8 @@ vla-robotic-arm/
         ├── action_generator.py        # skill + pose → joint targets
         └── vla_policy.py              # full VLA policy forward pass
 ```
+
+  The calibration YAMLs are created later under `rpi5_inference/calibration/` once the camera and workspace are physically fixed.
 
 ---
 
