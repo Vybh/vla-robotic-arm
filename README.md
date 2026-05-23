@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-A 4-DOF robotic arm controlled by a Vision-Language-Action (VLA) policy that
+A 5-DOF robotic arm controlled by a Vision-Language-Action (VLA) policy that
 accepts natural-language instructions ("pick up the red cube") and executes
 pick-place, stacking, and sorting tasks on a 60×60 cm tabletop workspace.
 Perception runs on a Raspberry Pi 5 at 8 Hz using a YOLO cube detector, a
