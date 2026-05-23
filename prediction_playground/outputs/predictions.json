@@ -1,0 +1,135 @@
+[
+  {
+    "image": "C:\\study material\\all_tut\\mini_project\\Main Project\\prediction_playground\\images\\image_1.jpeg",
+    "instruction": "Describe the task in natural language here",
+    "detections": [
+      {
+        "class_id": 1,
+        "class_name": "blue_cube",
+        "confidence": 0.9142876863479614,
+        "bbox_xyxy": [
+          787.9385375976562,
+          463.4162902832031,
+          830.6460571289062,
+          509.7718811035156
+        ],
+        "centroid": [
+          809.2922973632812,
+          486.5940856933594
+        ]
+      },
+      {
+        "class_id": 0,
+        "class_name": "red_cube",
+        "confidence": 0.8322346210479736,
+        "bbox_xyxy": [
+          752.2931518554688,
+          438.64910888671875,
+          787.1434936523438,
+          482.36065673828125
+        ],
+        "centroid": [
+          769.7183227539062,
+          460.5048828125
+        ]
+      }
+    ],
+    "matched_detection": null
+  },
+  {
+    "image": "C:\\study material\\all_tut\\mini_project\\Main Project\\prediction_playground\\images\\image_2.jpeg",
+    "instruction": "Describe the task in natural language here",
+    "detections": [
+      {
+        "class_id": 0,
+        "class_name": "red_cube",
+        "confidence": 0.9074627161026001,
+        "bbox_xyxy": [
+          720.2357177734375,
+          490.48370361328125,
+          763.6631469726562,
+          538.15625
+        ],
+        "centroid": [
+          741.949462890625,
+          514.3199462890625
+        ]
+      }
+    ],
+    "matched_detection": null
+  },
+  {
+    "image": "C:\\study material\\all_tut\\mini_project\\Main Project\\prediction_playground\\images\\image_3.jpeg",
+    "instruction": "Describe the task in natural language here",
+    "detections": [
+      {
+        "class_id": 0,
+        "class_name": "red_cube",
+        "confidence": 0.8410412669181824,
+        "bbox_xyxy": [
+          718.1632690429688,
+          412.0097961425781,
+          761.5714721679688,
+          460.37298583984375
+        ],
+        "centroid": [
+          739.8673706054688,
+          436.19140625
+        ]
+      },
+      {
+        "class_id": 1,
+        "class_name": "blue_cube",
+        "confidence": 0.839205801486969,
+        "bbox_xyxy": [
+          755.8041381835938,
+          514.9405517578125,
+          805.7589721679688,
+          571.9348754882812
+        ],
+        "centroid": [
+          780.7815551757812,
+          543.437744140625
+        ]
+      }
+    ],
+    "matched_detection": null
+  },
+  {
+    "image": "C:\\study material\\all_tut\\mini_project\\Main Project\\prediction_playground\\images\\image_4.jpeg",
+    "instruction": "Describe the task in natural language here",
+    "detections": [
+      {
+        "class_id": 0,
+        "class_name": "red_cube",
+        "confidence": 0.9071623086929321,
+        "bbox_xyxy": [
+          702.7352905273438,
+          424.16510009765625,
+          747.821044921875,
+          473.95086669921875
+        ],
+        "centroid": [
+          725.2781982421875,
+          449.0579833984375
+        ]
+      },
+      {
+        "class_id": 1,
+        "class_name": "blue_cube",
+        "confidence": 0.792140007019043,
+        "bbox_xyxy": [
+          740.9970092773438,
+          529.27734375,
+          791.1050415039062,
+          584.2066650390625
+        ],
+        "centroid": [
+          766.051025390625,
+          556.7420043945312
+        ]
+      }
+    ],
+    "matched_detection": null
+  }
+]
